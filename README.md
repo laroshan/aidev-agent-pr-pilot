@@ -14,6 +14,8 @@ The dataset has no CI results and no review or commit history for the human PRs.
 
 ![Figure 1](figures/figure1.png)
 
+**New to the topic?** [CONCEPTS.md](CONCEPTS.md) explains the ideas behind the pilot in diagrams.
+
 ## 1. Question
 
 The question I want to study is **how developers decide when to trust, revise or reject a pull request written by a coding agent**. Wu, Li, Stolee and Xu (FSE 2026, [arXiv 2604.16393](https://arxiv.org/abs/2604.16393)) found that AI assistants make developers more focused on creating code and on evaluating and verifying the results the assistant generates. Autonomous agents push that verification into code review: a maintainer gets a finished PR and has to decide what to do with it.
