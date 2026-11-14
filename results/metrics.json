@@ -1,0 +1,486 @@
+{
+  "window_end": "2025-05-29 23:07:52+00:00",
+  "human_snapshot": "2025-06-28 23:07:52+00:00",
+  "agent_snapshot": "2025-07-30 23:20:55+00:00",
+  "comparison_steps": [
+    {
+      "n_agent": 33596,
+      "n_human": 6618,
+      "k_agent": 24014,
+      "k_human": 5081,
+      "n_repos": 2815,
+      "rate_agent": 0.714787474699369,
+      "rate_human": 0.7677546086430946,
+      "wilson_agent": [
+        0.7099350226070471,
+        0.719590813628268
+      ],
+      "wilson_human": [
+        0.7574275655384173,
+        0.7777709924468006
+      ],
+      "gap": -0.05296713394372565,
+      "gap_ci": [
+        -0.174732535919454,
+        0.01830384013165179
+      ],
+      "cohen_h": -0.12108856070835206,
+      "cohen_h_ci": [
+        -0.37984787116734403,
+        0.043294558463361936
+      ],
+      "boot_valid": 10000,
+      "step": "0",
+      "label": "Raw tables; merged at each table's snapshot"
+    },
+    {
+      "n_agent": 7755,
+      "n_human": 5287,
+      "k_agent": 4834,
+      "k_human": 4172,
+      "n_repos": 1143,
+      "rate_agent": 0.6233397807865892,
+      "rate_human": 0.7891053527520333,
+      "wilson_agent": [
+        0.6124968485901474,
+        0.6340605801365666
+      ],
+      "wilson_human": [
+        0.7779012067035944,
+        0.7998896841703833
+      ],
+      "gap": -0.16576557196544406,
+      "gap_ci": [
+        -0.25803336862571513,
+        -0.07483940815121384
+      ],
+      "cohen_h": -0.36728148546999817,
+      "cohen_h_ci": [
+        -0.5561158300818146,
+        -0.17389200847674222
+      ],
+      "boot_valid": 10000,
+      "step": "1a",
+      "label": "Raw tables; merged at each table's snapshot; created by the window end"
+    },
+    {
+      "n_agent": 7755,
+      "n_human": 5287,
+      "k_agent": 4781,
+      "k_human": 4085,
+      "n_repos": 1143,
+      "rate_agent": 0.6165054803352675,
+      "rate_human": 0.7726498959712502,
+      "wilson_agent": [
+        0.6056283801256303,
+        0.6272672151222382
+      ],
+      "wilson_human": [
+        0.7611568023565355,
+        0.7837470701948802
+      ],
+      "gap": -0.1561444156359827,
+      "gap_ci": [
+        -0.25007631556926735,
+        -0.06203227498323124
+      ],
+      "cohen_h": -0.34157399107755904,
+      "cohen_h_ci": [
+        -0.5323699004249103,
+        -0.1426420268155501
+      ],
+      "boot_valid": 10000,
+      "step": "1",
+      "label": "Raw tables; merged within 30 days; created by the window end"
+    },
+    {
+      "n_agent": 7755,
+      "n_human": 4404,
+      "k_agent": 4781,
+      "k_human": 3459,
+      "n_repos": 1106,
+      "rate_agent": 0.6165054803352675,
+      "rate_human": 0.7854223433242506,
+      "wilson_agent": [
+        0.6056283801256303,
+        0.6272672151222382
+      ],
+      "wilson_human": [
+        0.7730517031738662,
+        0.7972954890860953
+      ],
+      "gap": -0.16891686298898312,
+      "gap_ci": [
+        -0.26043747229792874,
+        -0.07362222148243314
+      ],
+      "cohen_h": -0.37236153982439024,
+      "cohen_h_ci": [
+        -0.557847380859114,
+        -0.16969411376202062
+      ],
+      "boot_valid": 10000,
+      "step": "2",
+      "label": "Step 1 with bots, automation and agent PRs removed from the human table"
+    },
+    {
+      "n_agent": 3787,
+      "n_human": 3505,
+      "k_agent": 1845,
+      "k_human": 2768,
+      "n_repos": 357,
+      "rate_agent": 0.48719302878267756,
+      "rate_human": 0.7897289586305278,
+      "wilson_agent": [
+        0.47129462407873335,
+        0.5031173894406541
+      ],
+      "wilson_human": [
+        0.775924772221752,
+        0.8028987579378387
+      ],
+      "gap": -0.30253592984785027,
+      "gap_ci": [
+        -0.36031210405805997,
+        -0.24149354519302085
+      ],
+      "cohen_h": -0.6436801468825137,
+      "cohen_h_ci": [
+        -0.7572224565830326,
+        -0.5253478042477149
+      ],
+      "boot_valid": 10000,
+      "step": "3",
+      "label": "Step 2, only repositories that have both kinds of PR"
+    },
+    {
+      "n_agent": 200,
+      "n_human": 200,
+      "k_agent": 99,
+      "k_human": 162,
+      "n_repos": 108,
+      "rate_agent": 0.495,
+      "rate_human": 0.81,
+      "wilson_agent": [
+        0.4264584530693174,
+        0.5637300001973722
+      ],
+      "wilson_human": [
+        0.7499876124094632,
+        0.8583282850557797
+      ],
+      "gap": -0.31500000000000006,
+      "gap_ci": [
+        -0.40090253296775036,
+        -0.23039151524484136
+      ],
+      "cohen_h": -0.6787428698765388,
+      "cohen_h_ci": [
+        -0.8741246845217957,
+        -0.49456976901586197
+      ],
+      "boot_valid": 10000,
+      "step": "4",
+      "label": "Matched pairs: same repo, same task type, opened <=30 days apart"
+    }
+  ],
+  "agent_mix_by_step": {
+    "OpenAI_Codex": {
+      "Step 0": 21799,
+      "Steps 1a-2": 3430,
+      "Step 3": 961,
+      "Step 4": 63
+    },
+    "Copilot": {
+      "Step 0": 4970,
+      "Steps 1a-2": 811,
+      "Step 3": 488,
+      "Step 4": 29
+    },
+    "Devin": {
+      "Step 0": 4827,
+      "Steps 1a-2": 3426,
+      "Step 3": 2281,
+      "Step 4": 102
+    },
+    "Cursor": {
+      "Step 0": 1541,
+      "Steps 1a-2": 14,
+      "Step 3": 6,
+      "Step 4": 2
+    },
+    "Claude_Code": {
+      "Step 0": 459,
+      "Steps 1a-2": 74,
+      "Step 3": 51,
+      "Step 4": 4
+    }
+  },
+  "primary_merged_30d": {
+    "n_agent": 200,
+    "n_human": 200,
+    "k_agent": 99,
+    "k_human": 162,
+    "n_repos": 108,
+    "rate_agent": 0.495,
+    "rate_human": 0.81,
+    "wilson_agent": [
+      0.4264584530693174,
+      0.5637300001973722
+    ],
+    "wilson_human": [
+      0.7499876124094632,
+      0.8583282850557797
+    ],
+    "gap": -0.31500000000000006,
+    "gap_ci": [
+      -0.40090253296775036,
+      -0.23039151524484136
+    ],
+    "cohen_h": -0.6787428698765388,
+    "cohen_h_ci": [
+      -0.8741246845217957,
+      -0.49456976901586197
+    ],
+    "boot_valid": 10000,
+    "step": "4",
+    "label": "Matched pairs: same repo, same task type, opened <=30 days apart"
+  },
+  "secondary": {
+    "closed_unmerged_30d": {
+      "n_agent": 200,
+      "n_human": 200,
+      "k_agent": 82,
+      "k_human": 18,
+      "n_repos": 108,
+      "rate_agent": 0.41,
+      "rate_human": 0.09,
+      "wilson_agent": [
+        0.3441567485880499,
+        0.47923541021236327
+      ],
+      "wilson_human": [
+        0.057687448660377366,
+        0.13776571920817224
+      ],
+      "gap": 0.31999999999999995,
+      "gap_ci": [
+        0.23557692307692307,
+        0.40540851911819653
+      ],
+      "cohen_h": 0.780424567517554,
+      "cohen_h_ci": [
+        0.5800537856916546,
+        0.9938702091808923
+      ],
+      "boot_valid": 10000
+    },
+    "open_at_30d": {
+      "n_agent": 200,
+      "n_human": 200,
+      "k_agent": 19,
+      "k_human": 20,
+      "n_repos": 108,
+      "rate_agent": 0.095,
+      "rate_human": 0.1,
+      "wilson_agent": [
+        0.061663102507449205,
+        0.14360161209441075
+      ],
+      "wilson_human": [
+        0.06567044845124734,
+        0.14940581288392302
+      ],
+      "gap": -0.0050000000000000044,
+      "gap_ci": [
+        -0.06806857361767335,
+        0.057803468208092484
+      ],
+      "cohen_h": -0.01685689715254368,
+      "cohen_h_ci": [
+        -0.22736629287369867,
+        0.1970368700522271
+      ],
+      "boot_valid": 10000
+    }
+  },
+  "time_to_merge_hours": {
+    "n_agent": 99,
+    "n_human": 162,
+    "agent_quartiles": [
+      0.2915277777777778,
+      1.841388888888889,
+      22.824444444444445
+    ],
+    "human_quartiles": [
+      0.45576388888888886,
+      2.5098611111111113,
+      26.886388888888888
+    ],
+    "agent_median_ci": [
+      0.8352777777777778,
+      6.184444444444445
+    ],
+    "human_median_ci": [
+      1.091388888888889,
+      5.597777777777778
+    ],
+    "cliffs_delta": -0.03647586980920314,
+    "cliffs_delta_ci": [
+      -0.19411841539123487,
+      0.1210024203983934
+    ]
+  },
+  "by_agent": {
+    "Devin": {
+      "pairs": 102,
+      "agent_merged_30d": 51,
+      "human_merged_30d": 84
+    },
+    "OpenAI_Codex": {
+      "pairs": 63,
+      "agent_merged_30d": 35,
+      "human_merged_30d": 46
+    },
+    "Copilot": {
+      "pairs": 29,
+      "agent_merged_30d": 9,
+      "human_merged_30d": 27
+    },
+    "Claude_Code": {
+      "pairs": 4,
+      "agent_merged_30d": 2,
+      "human_merged_30d": 3
+    },
+    "Cursor": {
+      "pairs": 2,
+      "agent_merged_30d": 2,
+      "human_merged_30d": 2
+    }
+  },
+  "agent_review_activity": {
+    "review_comments": {
+      "median": 0.0,
+      "q1": 0.0,
+      "q3": 1.25,
+      "mean": 1.575,
+      "share_zero": 0.585,
+      "share_zero_ci": [
+        0.5157391484647246,
+        0.6510571460015516
+      ]
+    },
+    "review_rounds": {
+      "median": 0.0,
+      "q1": 0.0,
+      "q3": 1.0,
+      "mean": 0.955,
+      "share_zero": 0.655,
+      "share_zero_ci": [
+        0.5867558920387631,
+        0.7174020566938585
+      ]
+    },
+    "paths": {
+      "merged, no human review": {
+        "n": 45,
+        "share": 0.225,
+        "ci": [
+          0.17262369678203637,
+          0.2877412328858932
+        ]
+      },
+      "merged after human review": {
+        "n": 54,
+        "share": 0.27,
+        "ci": [
+          0.21323449773870293,
+          0.33543435252902
+        ]
+      },
+      "closed without merge": {
+        "n": 82,
+        "share": 0.41,
+        "ci": [
+          0.3441567485880499,
+          0.47923541021236327
+        ]
+      },
+      "open at day 30": {
+        "n": 19,
+        "share": 0.095,
+        "ci": [
+          0.061663102507449205,
+          0.14360161209441075
+        ]
+      }
+    },
+    "merged_without_human_review_share_of_merged": {
+      "k": 45,
+      "n": 99,
+      "share": 0.45454545454545453,
+      "ci": [
+        0.3599936012325934,
+        0.5524930544615059
+      ]
+    },
+    "paths_by_agent": {
+      "Claude_Code": {
+        "closed without merge": 2,
+        "merged after human review": 0,
+        "merged, no human review": 2,
+        "open at day 30": 0
+      },
+      "Copilot": {
+        "closed without merge": 15,
+        "merged after human review": 9,
+        "merged, no human review": 0,
+        "open at day 30": 5
+      },
+      "Cursor": {
+        "closed without merge": 0,
+        "merged after human review": 2,
+        "merged, no human review": 0,
+        "open at day 30": 0
+      },
+      "Devin": {
+        "closed without merge": 47,
+        "merged after human review": 33,
+        "merged, no human review": 18,
+        "open at day 30": 4
+      },
+      "OpenAI_Codex": {
+        "closed without merge": 18,
+        "merged after human review": 10,
+        "merged, no human review": 25,
+        "open at day 30": 10
+      }
+    },
+    "truncation": {
+      "pr_reviews_at_30_rows": 1,
+      "pr_comments_at_30_rows": 1
+    },
+    "closed_by_post_hoc": {
+      "Claude_Code": {
+        "another human": 1,
+        "no closed event in timeline": 0,
+        "the PR's author account": 1
+      },
+      "Copilot": {
+        "another human": 11,
+        "no closed event in timeline": 4,
+        "the PR's author account": 0
+      },
+      "Devin": {
+        "another human": 24,
+        "no closed event in timeline": 5,
+        "the PR's author account": 18
+      },
+      "OpenAI_Codex": {
+        "another human": 7,
+        "no closed event in timeline": 0,
+        "the PR's author account": 11
+      }
+    }
+  }
+}
