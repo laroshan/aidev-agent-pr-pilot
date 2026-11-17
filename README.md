@@ -1,6 +1,6 @@
 # Agent vs. human pull requests in AIDev: a small matched pilot
 
-**What this is:** Here We compare pull requests (PRs) written by AI coding agents with matched human PRs from the same repositories, using the public AIDev dataset. Every result below is produced by the scripts in [`scripts/`](scripts/) and written to [`results/`](results/). Numbers quoted from other papers are cited.
+**What this is:** I compare pull requests (PRs) written by AI coding agents with matched human PRs from the same repositories, using the public AIDev dataset. Every result below is produced by the scripts in [`scripts/`](scripts/) and written to [`results/`](results/). Numbers quoted from other papers are cited.
 
 **The short version.** I matched 200 agent PRs to human PRs from the same repo, with the same task type, opened within 30 days of each other. After 30 days, **49.5% of the agent PRs had been merged, against 81.0% of the human PRs**. That is a gap of −31.5 percentage points (95% CI −40.1 to −23.0). The agent PRs that did get merged went in about as fast as the human ones.
 
