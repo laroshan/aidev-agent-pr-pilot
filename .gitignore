@@ -1,4 +1,4 @@
 # Downloaded AIDev tables (about 600 MB); scripts/01_download_data.py fetches them again.
 data/
-.venv/
+.venv*
 __pycache__/
